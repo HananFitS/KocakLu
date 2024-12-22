@@ -21,7 +21,27 @@ Untuk informasi lebih lengkap bisa cek di bagian doc dengan nama file:
 
 Spesifikasi Tugas Besar 2 IF3070 Dasar Inteligensi Artifisial 2024_2025.docx
 
-#### Pembagian Tugas:
+## Cara melakukan run
+Library yang disiapkan sebelum menggunakan notebook: 
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import classification_report, accuracy_score
+from sklearn.preprocessing import LabelEncoder
+import joblib
+from google.colab import drive
+from collections import defaultdict
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.utils import resample
+from sklearn.pipeline import Pipeline
+from sklearn.neighbors import KNeighborsClassifier
+
+## Dataset yang digunakan:
+Kami menggunakan dataset train sebagai dataset utama yang digunakan untuk training dan testing. Dataset test digunakan untuk mengevaluasi performa model.
+
+## Pembagian Tugas:
 
 | Nama | NIM | Tugas |
 | --- | --- | --- |
@@ -29,3 +49,6 @@ Spesifikasi Tugas Besar 2 IF3070 Dasar Inteligensi Artifisial 2024_2025.docx
 | Nicholas Francis Aditjandra | 18221005 | Data Preprocessing |
 | Hanan Fitra Salam | 18222133 | KNN |
 | Salsabila Azzahra | 18222139 | Data cleaning |
+
+## Attachment:
+- [Hasil model](https://drive.google.com/drive/folders/1B865JgEohIhpIINODF0Uo5_bjV4nsJJx?usp=sharing)
